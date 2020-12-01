@@ -35,8 +35,37 @@ iframe {
     margin-top: 15px;
 }
 
+.step2 p {
+    width: 83%;
+}
+
 .step2 img {
     margin-top: 15px;
-    width: 50%;
-    height: 290px;
+    width: 83%;
+}
+
+.hearing h5 {
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgba(245, 222, 179, 0.616);
+    border: 1px solid black;
+    width: 83%;
+}
+
+.halfbox {
+    display: flex;
+    justify-content: center;
+}
+
+.step3 {
+    margin-top: 15px;
+}
+
+.step3 p {
+    width: 83%;
+}
+
+.step3 img {
+    margin-top: 15px;
+    width: 83%;
 }
