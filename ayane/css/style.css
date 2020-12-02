@@ -1,0 +1,57 @@
+/* header */
+
+
+.menu{
+    display: flex;
+    font-size: 13px;
+    margin-right: 20px;
+    justify-content: flex-end;
+    background-color: #ffffff;
+    font-weight: bold;   
+}
+
+a {
+    text-decoration: none;
+    color:#000000;
+  }
+
+li{
+    list-style: none;
+}
+
+.menucontent{
+    margin-right: 7px;
+}
+/* メインスライダー */
+#slideshow {
+    border: none;
+    position: relative;
+    display: block;
+    width: 100vw;
+    /* 画像の横幅に合わせて記述 */
+    height: 90vh;
+    /* 画像の高さに合わせて記述 */
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+  
+  #slideshow img {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    opacity: 0.0;
+    width: 100vw;
+    height: 90vh;
+    box-shadow: inset 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  #slideshow img.active {
+    z-index: 10;
+    opacity: 1.0;
+  }
+  
+  #slideshow img.last-active {
+    z-index: 9;
+  }
