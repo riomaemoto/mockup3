@@ -35,13 +35,8 @@ iframe {
     margin-top: 15px;
 }
 
-.step2 p {
-    width: 83%;
-}
-
 .step2 img {
     margin-top: 15px;
-    width: 83%;
 }
 
 .hearing h5 {
@@ -49,7 +44,6 @@ iframe {
     font-size: 20px;
     background-color: rgba(245, 222, 179, 0.616);
     border: 1px solid black;
-    width: 83%;
 }
 
 .halfbox {
@@ -61,11 +55,15 @@ iframe {
     margin-top: 15px;
 }
 
-.step3 p {
-    width: 83%;
-}
-
 .step3 img {
     margin-top: 15px;
-    width: 83%;
+    height: 300px;
+}
+
+.zoom h5 {
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 24px;
+    background-color: rgba(245, 222, 179, 0.616);
+    border: 1px solid black;
 }
