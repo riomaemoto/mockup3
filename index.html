@@ -4,22 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
+        <div class="top">
+            <section>
+                <ul class="menu">
+                    <li><span class="menucontent"><a href="#" >ABOUT</a></span></li>
+                    <li><span class="menucontent"><a href="#" >SITUATION</a></span></li>
+                    <li><span class="menucontent"><a href="#" >MENU</a></span></li>
+                    <li><span class="menucontent"><a href="#" >HOSPITALITY</a></span></li>
+                    <li><span class="menucontent"><a href="#" >GALLERY</a></span></li>
+                    <li><span class="menucontent"><a href="#" >ACCESS</a></span></li>
+                </ul>
+            </section>
+            <!-- <head_slide>   -->
+            <div class="container-fluid">
+                <p id="slideshow">
+                    <img src="img/beach.jpg" alt="img1" class="active">
+                    <img src="img/boy.jpg" alt="img2">
+                    <img src="img/beach2.jpg" alt="img3">
+                    <img src="img/study.jpg" alt="img4">
+                    <img src="img/california.jpg" alt="img5">
+                    <img src="img/study2.jpg" alt="img6">
+                    <img src="img/sea.jpg" alt="img7">
+                    <img src="img/women.jpg" alt="img8">
+                    <img src="img/sunset.jpg" alt="img9">
+                </p>
+            </div>
 
+            <!-- </head_slide>     -->
     </header>
-    <main>
+    <div class="container">
+        <div class="entry">
+            <h2>レッスン開始までの流れ</h2>
+        </div>
+        <div class="step1">
+            <div class="map" id="map">
+                <p>ステップ 1. 　来校する</p>
+                <div class="map_address">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.3199598501665!2d127.75563961525553!3d26.316136991851298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e5133d5f630eeb%3A0xdcd47737aa1ef208!2zTmV4U2VlZCDmspbnuITmoKE!5e0!3m2!1sja!2sjp!4v1606851123469!5m2!1sja!2sjp"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="halfbox row">
+                    <div class="step2 col-6">
+                        <p class="col-12">ステップ 2. 　ヒアリングと学びたい分野の決定</p>
+                        <div class="hearing">
+                            <img src="../leo/img/meeting.jpg">
+                            <h5>お客様が身に付けたいカテゴリーをお聞きし、それを元にお客様オリジナルのカリキュラムを作成いたします。日常会話、ビジネス、検定、...etc
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="step3 col-6">
+                        <p class="col-12">ステップ 3. 　ZOOMで楽しく英語を身につける</p>
+                        <div class="zoom">
+                            <img src="../leo/img/ZOOMlesson.jpg">
+                            <h5>お客様と日程を調整してZOOMで楽しく英語を学んでスキルアップ！
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </main>
-    <div>
-
-    </div>
-    <footer>
-
-    </footer>
 </body>
 
 </html>
