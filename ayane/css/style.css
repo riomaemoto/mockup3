@@ -114,6 +114,10 @@ li {
 
 /* ハンバーガーメニュー */
 
+<<<<<<< HEAD
+=======
+ /* ハンバーガーメニュー */
+>>>>>>> 2376e2c4c02fb2d4f752eb9e332b39f3efd4b36d
 .hamburger {
     display: none;
     width: 28px;
@@ -199,6 +203,7 @@ li {
     .img-box li {
         margin-right: 30px;
     }
+<<<<<<< HEAD
 }
 
 
@@ -275,9 +280,70 @@ li {
     }
     /* ハンバーガーメニュー */
     .hamburger {
-        display: block;
-        position: absolute;
+=======
+    
+    /* タブレット用 */
+    @media screen and (max-width: 960px) {
+
+      
+    
+    
+    /* スマフォ用 */
+    @media screen and (max-width: 480px) {
+      body {
+        min-width: 375px;
+      }
+      .headerall{
+        display: none;
+      }          
+      
+      #slideshow {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        margin-bottom: -100px;
+        margin-left: 0px;
+
+      }
+      #slideshow img {
+        width: 100%;
+        height: 250px;
+      }
+      .container-fluid{
+
+      }
+      .container-fluid p{
+      font-size: 20px;
+      margin-top: 150px;
+      }
+
+      /* header */
+      .icon {
+        /* display: none; */
+      }
+
+      
+      /* ハンバーガーメニュー */
+      .hamburgerall{
+        position: relative;
         z-index: 10;
+      }
+      .hamburger {
+>>>>>>> 2376e2c4c02fb2d4f752eb9e332b39f3efd4b36d
+        display: block;
+        position: relative;
+        z-index: 10;
+<<<<<<< HEAD
     }
     /* ハンバーガーメニューここまで */
 }
+=======
+        right: 0;
+        margin-right: 10px;
+        margin-top: 15px;
+
+      }
+      /* ハンバーガーメニューここまで */
+    
+    }
+>>>>>>> 2376e2c4c02fb2d4f752eb9e332b39f3efd4b36d
