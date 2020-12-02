@@ -1,0 +1,122 @@
+/* contact */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../img/contact.jpg);
+  margin-top: 50px;
+  height: 350px;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+.form .name,.form .email{
+  height: 50px;
+  width: 400px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form .name {
+  margin-bottom: 20px;
+}
+
+.contact .form{
+  margin: 50px 0 40px;
+}
+
+.form-left{
+  margin-right: 50px;
+}
+
+.inquiry{
+  height: 120px;
+  width: 400px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.contact button{
+  /* background-color: #1dace0; */
+  color:black;
+  border: 3px solid #1dace0;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 10px 45px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #233f51;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-right{
+  margin-right:80px;
+}
+
+/*　footer ここまで　*/
+
+/*　レスポンシブ対応　*/
+/*　小型PC用　*/
+@media screen and (max-width: 1280px){
+  .img-box li {
+    margin-right: 30px;
+  }
+}
+/*　タブレット　*/
+@media screen and (max-width: 960px){
+/*カリキュラム*/
+.img-box {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .img-box li {
+    margin-top: 30px;
+    margin-right: 0;
+  }
+  /*カリキュラムここまで*/
+  /*Contact*/
+   .contact .form {
+  flex-flow: column nowrap;
+  margin:30px 0;
+ }
+
+  .form .name, .form .email ,.form .inquiry {
+    width: 80%;
+  }
+
+  .form .name, .form .email {
+    height: 30px;
+  }
+
+ .form .inquiry {
+    height: 100px;
+  }
+
+  .form-left {
+    margin-right: 0;
+  }
+
+  .form-right {
+    margin-top: 20px;
+  }
+
+  .contact button {
+    font-size: 20px;
+    padding: 5px 40px;
+  }
+
+}
+
+  
