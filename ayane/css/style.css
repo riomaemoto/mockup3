@@ -192,47 +192,8 @@ li{
     
     /* タブレット用 */
     @media screen and (max-width: 960px) {
-      .img-box {
-        flex-wrap: wrap;
-        justify-content: space-around;
-      }
-    
-      .img-box li {
-        margin-top: 30px;
-        margin-right: 0;
-      }
-    
-       /* contact */
-     .contact .form {
-      flex-flow: column nowrap;
-      margin:30px 0;
-     }
-    
-      .form .name, .form .email ,.form .inquiry {
-        width: 80%;
-      }
-    
-      .form .name, .form .email {
-        height: 30px;
-      }
-    
-     .form .inquiry {
-        height: 50px;
-      }
-    
-      .form-left {
-        margin-right: 0;
-      }
-    
-      .form-right {
-        margin-top: 20px;
-      }
-    
-      .contact button {
-        font-size: 20px;
-        padding: 5px 40px;
-      }
-    }
+
+      
     
     
     /* スマフォ用 */
@@ -245,6 +206,8 @@ li{
       }          
       
       #slideshow {
+        position: relative;
+        z-index: 1;
         width: 100%;
         margin-bottom: -100px;
         margin-left: 0px;
@@ -269,12 +232,19 @@ li{
 
       
       /* ハンバーガーメニュー */
+      .hamburgerall{
+        position: relative;
+        z-index: 10;
+      }
       .hamburger {
         display: block;
+        position: relative;
+        z-index: 10;
+        right: 0;
+        margin-right: 10px;
+        margin-top: 15px;
+
       }
       /* ハンバーガーメニューここまで */
     
     }
-    
-    
-    
